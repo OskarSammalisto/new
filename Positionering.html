@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Övning 3, Positionering</title>
+</head>
+<body>
+    <style>
+        div{ border: 2px dotted purple; padding: 8px; margin: 2px; width: 200px;}
+        #fixed{ position: fixed; left: 80px; background-color: purple; height: 100px; width: 100px;z-index: 1;}
+        #relative{ position: relative; left: 150px; top: 1200px; border: 6px solid black; background-color: blueviolet; color: aliceblue}
+        #abs{ position: absolute; background-color: darkblue; left: 100px; top: 60px; z-index: 2;}
+        #static{ position: static; background-color: brown; color: blanchedalmond; width: 40px; height: 60px; z-index: 3;}
+
+    </style>
+
+    <div id="fixed">Fixed</div>
+    <div id="relative">Relative</div>
+    <div id="abs">Absolute</div>
+    <div id="static">Static</div>
+
+
+
+</body>
+</html>
